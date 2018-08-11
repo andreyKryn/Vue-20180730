@@ -3,7 +3,7 @@
 
     <h2>Список пользователей</h2>
 
-    <div v-if="!users.lenght" class="alert alert-warning">
+    <div v-if="!users" class="alert alert-warning">
       Загрузка...
     </div>
     <user-list v-else :users="users" />
